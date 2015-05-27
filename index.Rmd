@@ -69,7 +69,7 @@ getMeans(7, 50, 1)
 
 ## Sample histogram
 For 50 values, repeated 100 times with a lambda of 1, the output histogram would resemble:
-```{r echo=FALSE, fig.height=5}
+```{r echo=FALSE, fig.height=4}
 sampleMeans <- getMeans(100, 50, 1)
 idealXAxis <- seq(min(sampleMeans), max(sampleMeans), length=100)
 idealYAxis <- dnorm(idealXAxis, mean=1, sd=1/(1 * sqrt(50)))
@@ -85,5 +85,7 @@ lines(density(sampleMeans), col="purple")
 lines(idealXAxis, idealYAxis, col="red")       
 legend('topright', c("sample", "ideal"), lwd=1, col=c("purple", "red"))
 ```
-## Link to App
-You can view the application [here](https://sidm.shinyapps.io/project/)
+## Links
+You can view the application [here](https://sidm.shinyapps.io/project/).  
+You can view the code [here](https://github.com/Syd-/devdataprod-014-code).  
+You can view the code for this slideshow [here](https://github.com/Syd-/devdataprod-014). 

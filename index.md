@@ -76,5 +76,7 @@ getMeans(7, 50, 1)
 ## Sample histogram
 For 50 values, repeated 100 times with a lambda of 1, the output histogram would resemble:
 ![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png) 
-## Link to App
-You can view the application [here](https://sidm.shinyapps.io/project/)
+## Links
+You can view the application [here](https://sidm.shinyapps.io/project/).  
+You can view the code [here](https://github.com/Syd-/devdataprod-014-code).  
+You can view the code for this slideshow [here](https://github.com/Syd-/devdataprod-014). 
